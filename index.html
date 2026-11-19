@@ -1,0 +1,1662 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>捷克街头搭讪 - 影像社区品牌站 | 真实记录与创作生态</title>
+<meta name="description" content="捷克街头搭讪官方网站，专注真实街头影像与人文记录的品牌视频社区，聚集创作者、原创内容与城市探索故事。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2317263c'/%3E%3Cpath d='M26 20 L46 32 L26 44 Z' fill='%23f2a24b'/%3E%3C/svg%3E">
+<style>
+:root{
+  --cj-ink:#17263c;
+  --cj-ink-soft:#2c3f5c;
+  --cj-amber:#f2a24b;
+  --cj-amber-deep:#d97f21;
+  --cj-mist:#eef2f7;
+  --cj-line:#d9e1ec;
+  --cj-paper:#fbfcfe;
+  --cj-text:#25344a;
+  --cj-sub:#5c6d85;
+  --cj-radius:16px;
+  --cj-shadow:0 10px 30px rgba(23,38,60,.09);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  color:var(--cj-text);
+  background:var(--cj-paper);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+.cj-sticky-head{position:sticky;top:0;z-index:80}
+.cj-notice{
+  background:linear-gradient(90deg,var(--cj-ink),var(--cj-ink-soft));
+  color:#e8eef7;
+  font-size:13px;
+  padding:8px 20px;
+  display:flex;
+  gap:14px;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.cj-notice-tag{
+  background:var(--cj-amber);
+  color:#17263c;
+  font-weight:700;
+  padding:1px 9px;
+  border-radius:999px;
+  font-size:12px;
+  letter-spacing:.5px;
+}
+.cj-notice a{border-bottom:1px dashed rgba(232,238,247,.55);padding-bottom:1px}
+.cj-notice a:hover{color:var(--cj-amber)}
+.cj-header{
+  background:rgba(251,252,254,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--cj-line);
+}
+.cj-header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:12px 20px;
+  display:flex;
+  align-items:center;
+  gap:22px;
+}
+.cj-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;letter-spacing:.4px;color:var(--cj-ink)}
+.cj-logo-mark{
+  width:38px;height:38px;border-radius:11px;
+  background:var(--cj-ink);
+  display:grid;place-items:center;flex:0 0 auto;
+}
+.cj-logo-mark svg{width:20px;height:20px}
+.cj-logo small{display:block;font-size:10px;font-weight:500;color:var(--cj-sub);letter-spacing:2px}
+.cj-nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.cj-nav a{
+  padding:7px 12px;border-radius:10px;font-size:14px;color:var(--cj-ink-soft);
+  transition:background .2s,color .2s;
+}
+.cj-nav a:hover{background:var(--cj-mist);color:var(--cj-ink)}
+.cj-search{position:relative}
+.cj-search input{
+  width:190px;padding:8px 34px 8px 13px;border-radius:999px;
+  border:1px solid var(--cj-line);background:#fff;font-size:13px;color:var(--cj-text);
+  outline:none;transition:border .2s,box-shadow .2s;
+}
+.cj-search input:focus{border-color:var(--cj-amber);box-shadow:0 0 0 3px rgba(242,162,75,.18)}
+.cj-search button{
+  position:absolute;right:4px;top:50%;transform:translateY(-50%);
+  border:0;background:var(--cj-ink);color:#fff;width:26px;height:26px;border-radius:50%;
+  cursor:pointer;display:grid;place-items:center;font-size:13px;
+}
+.cj-search-tip{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;
+  background:#fff;border:1px solid var(--cj-line);border-radius:12px;
+  box-shadow:var(--cj-shadow);padding:10px 12px;font-size:12.5px;color:var(--cj-sub);
+  display:none;z-index:90;
+}
+.cj-search-tip.cj-show{display:block}
+.cj-burger{
+  display:none;border:1px solid var(--cj-line);background:#fff;border-radius:10px;
+  width:40px;height:40px;cursor:pointer;font-size:18px;color:var(--cj-ink);
+}
+.cj-wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section{scroll-margin-top:104px}
+.cj-sec{padding:64px 0}
+.cj-sec-alt{background:linear-gradient(180deg,#f4f7fb,#fbfcfe)}
+.cj-sec-head{max-width:760px;margin-bottom:34px}
+.cj-eyebrow{
+  font-size:12px;letter-spacing:3px;color:var(--cj-amber-deep);
+  font-weight:700;text-transform:uppercase;margin-bottom:8px;
+}
+h2{font-size:clamp(22px,3vw,30px);line-height:1.35;margin:0 0 12px;color:var(--cj-ink)}
+h3{font-size:17px;margin:0 0 8px;color:var(--cj-ink);line-height:1.5}
+.cj-sec-head p{margin:0;color:var(--cj-sub);font-size:15px}
+/* hero */
+.cj-hero{padding:52px 0 60px;background:
+  radial-gradient(900px 420px at 82% -10%,rgba(242,162,75,.22),transparent 65%),
+  radial-gradient(700px 380px at 0% 110%,rgba(23,38,60,.10),transparent 70%),
+  linear-gradient(180deg,#f7fafd,#eef3f9);
+  border-bottom:1px solid var(--cj-line);
+}
+.cj-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+.cj-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:#fff;border:1px solid var(--cj-line);border-radius:999px;
+  padding:5px 14px;font-size:12.5px;color:var(--cj-ink-soft);font-weight:600;
+  box-shadow:0 4px 14px rgba(23,38,60,.06);
+}
+.cj-dot{width:8px;height:8px;border-radius:50%;background:var(--cj-amber);box-shadow:0 0 0 4px rgba(242,162,75,.2)}
+h1{
+  font-size:clamp(34px,5vw,54px);line-height:1.12;margin:18px 0 16px;
+  color:var(--cj-ink);letter-spacing:-.5px;
+}
+h1 span{color:var(--cj-amber-deep)}
+.cj-hero-lead{font-size:16px;color:var(--cj-sub);max-width:520px;margin:0 0 26px}
+.cj-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px}
+.cj-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:12px;
+  padding:12px 22px;font-size:14.5px;font-weight:700;cursor:pointer;border:1px solid transparent;
+  transition:transform .18s,box-shadow .18s,background .2s;
+}
+.cj-btn:hover{transform:translateY(-2px)}
+.cj-btn-main{background:var(--cj-ink);color:#fff;box-shadow:0 8px 20px rgba(23,38,60,.22)}
+.cj-btn-main:hover{background:#0f1b2d}
+.cj-btn-ghost{background:#fff;color:var(--cj-ink);border-color:var(--cj-line)}
+.cj-btn-ghost:hover{border-color:var(--cj-amber)}
+.cj-btn-amber{background:var(--cj-amber);color:#17263c;box-shadow:0 8px 20px rgba(217,127,33,.28)}
+.cj-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:520px}
+.cj-stat{background:#fff;border:1px solid var(--cj-line);border-radius:14px;padding:14px 16px}
+.cj-stat b{display:block;font-size:22px;color:var(--cj-ink);line-height:1.2}
+.cj-stat span{font-size:12px;color:var(--cj-sub)}
+.cj-hero-visual{position:relative}
+.cj-hero-card{
+  border-radius:22px;overflow:hidden;box-shadow:0 24px 50px rgba(23,38,60,.20);
+  border:1px solid #fff;
+}
+.cj-hero-card svg{display:block;width:100%;height:auto}
+.cj-float-tag{
+  position:absolute;left:-14px;bottom:26px;background:#fff;border-radius:14px;
+  padding:10px 16px;box-shadow:var(--cj-shadow);font-size:12.5px;color:var(--cj-ink);
+  font-weight:700;border:1px solid var(--cj-line);
+}
+.cj-float-tag small{display:block;font-weight:500;color:var(--cj-sub);font-size:11px}
+/* cards generic */
+.cj-card{
+  background:#fff;border:1px solid var(--cj-line);border-radius:var(--cj-radius);
+  overflow:hidden;transition:transform .2s,box-shadow .2s,border-color .2s;
+  display:flex;flex-direction:column;
+}
+.cj-card:hover{transform:translateY(-4px);box-shadow:var(--cj-shadow);border-color:#c8d5e6}
+.cj-cover{position:relative;aspect-ratio:16/9;background:var(--cj-mist);overflow:hidden}
+.cj-cover svg{width:100%;height:100%;display:block}
+.cj-cover-tag{
+  position:absolute;top:10px;left:10px;background:rgba(23,38,60,.82);color:#fff;
+  font-size:11px;padding:3px 9px;border-radius:999px;backdrop-filter:blur(4px);
+}
+.cj-play{
+  position:absolute;right:10px;bottom:10px;width:34px;height:34px;border-radius:50%;
+  background:rgba(255,255,255,.92);display:grid;place-items:center;
+  box-shadow:0 4px 12px rgba(0,0,0,.2);
+}
+.cj-play svg{width:13px;height:13px}
+.cj-card-body{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.cj-card-body p{margin:0;font-size:13px;color:var(--cj-sub)}
+.cj-meta{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--cj-sub);margin-top:auto;flex-wrap:wrap}
+.cj-avatar{
+  width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+  font-size:11px;font-weight:700;color:#fff;flex:0 0 auto;
+}
+.cj-chip{
+  display:inline-block;background:var(--cj-mist);color:var(--cj-ink-soft);
+  font-size:11.5px;padding:2px 9px;border-radius:999px;
+}
+.cj-card-actions{display:flex;gap:8px;align-items:center;margin-top:10px;padding-top:10px;border-top:1px dashed var(--cj-line)}
+.cj-act{
+  border:1px solid var(--cj-line);background:#fff;border-radius:999px;
+  padding:4px 11px;font-size:12px;color:var(--cj-sub);cursor:pointer;
+  display:inline-flex;align-items:center;gap:5px;transition:all .2s;
+}
+.cj-act:hover{border-color:var(--cj-amber);color:var(--cj-amber-deep)}
+.cj-act.cj-on{background:var(--cj-amber);border-color:var(--cj-amber);color:#17263c;font-weight:700}
+.cj-act.cj-fav.cj-on{background:#ffe8e0;border-color:#f2a24b;color:#c2531f}
+/* focus */
+.cj-focus-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:22px}
+.cj-focus-main .cj-cover{aspect-ratio:16/9}
+.cj-focus-main .cj-card-body{padding:22px}
+.cj-focus-main h3{font-size:21px}
+.cj-focus-side{display:grid;grid-template-rows:repeat(2,1fr);gap:22px}
+.cj-focus-side .cj-card{flex-direction:row}
+.cj-focus-side .cj-cover{width:44%;aspect-ratio:auto;flex:0 0 44%}
+.cj-focus-side .cj-card-body{padding:14px}
+.cj-focus-side h3{font-size:15px}
+/* video grid */
+.cj-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.cj-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.cj-filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.cj-filter{
+  border:1px solid var(--cj-line);background:#fff;border-radius:999px;
+  padding:6px 15px;font-size:13px;color:var(--cj-sub);cursor:pointer;transition:all .2s;
+}
+.cj-filter:hover{border-color:var(--cj-amber)}
+.cj-filter.cj-on{background:var(--cj-ink);color:#fff;border-color:var(--cj-ink)}
+/* topics */
+.cj-topic{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.cj-topic-card{
+  border-radius:var(--cj-radius);padding:24px;color:#fff;position:relative;overflow:hidden;
+  min-height:180px;display:flex;flex-direction:column;justify-content:flex-end;gap:6px;
+}
+.cj-topic-card::after{
+  content:"";position:absolute;inset:0;background:linear-gradient(160deg,rgba(255,255,255,.16),rgba(0,0,0,.25));
+}
+.cj-topic-card>*{position:relative;z-index:1}
+.cj-topic-card h3{color:#fff;font-size:18px}
+.cj-topic-card p{margin:0;font-size:13px;opacity:.9}
+.cj-status{
+  align-self:flex-start;font-size:11px;background:rgba(255,255,255,.22);
+  border:1px solid rgba(255,255,255,.4);padding:2px 10px;border-radius:999px;margin-bottom:6px;
+}
+/* creators */
+.cj-creators{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.cj-creator{
+  background:#fff;border:1px solid var(--cj-line);border-radius:var(--cj-radius);
+  padding:22px;text-align:center;transition:transform .2s,box-shadow .2s;cursor:pointer;
+}
+.cj-creator:hover{transform:translateY(-4px);box-shadow:var(--cj-shadow)}
+.cj-creator-avatar{
+  width:64px;height:64px;border-radius:20px;margin:0 auto 12px;display:grid;place-items:center;
+  font-size:22px;font-weight:800;color:#fff;box-shadow:0 8px 18px rgba(23,38,60,.18);
+}
+.cj-creator b{display:block;color:var(--cj-ink);font-size:15px}
+.cj-creator p{font-size:12.5px;color:var(--cj-sub);margin:6px 0 10px;line-height:1.6}
+.cj-creator-num{display:flex;justify-content:center;gap:16px;font-size:12px;color:var(--cj-sub)}
+.cj-creator-num b{display:block;color:var(--cj-ink);font-size:14px}
+/* quotes */
+.cj-quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cj-quote{
+  background:#fff;border:1px solid var(--cj-line);border-radius:var(--cj-radius);padding:20px;
+  font-size:13.5px;color:var(--cj-sub);display:flex;flex-direction:column;gap:12px;
+}
+.cj-quote .cj-q-head{display:flex;align-items:center;gap:10px}
+.cj-quote b{color:var(--cj-ink);font-size:13.5px}
+.cj-stars{color:var(--cj-amber-deep);letter-spacing:2px;font-size:12px}
+/* wall */
+.cj-wall{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.cj-wall-item{
+  position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--cj-line);
+  background:#fff;
+}
+.cj-wall-item svg{width:100%;height:100%;display:block}
+.cj-wall-item .cj-wall-label{
+  position:absolute;left:10px;bottom:8px;font-size:12px;color:#fff;font-weight:600;
+  text-shadow:0 1px 6px rgba(0,0,0,.5);
+}
+.cj-wall-a{grid-column:span 5;grid-row:span 2}
+.cj-wall-b{grid-column:span 4}
+.cj-wall-c{grid-column:span 3}
+.cj-wall-d{grid-column:span 3}
+.cj-wall-e{grid-column:span 4}
+.cj-wall-f{grid-column:span 4}
+.cj-wall-a svg{aspect-ratio:5/4}
+/* inspiration */
+.cj-inspire{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.cj-idea{
+  background:#fff;border:1px solid var(--cj-line);border-left:4px solid var(--cj-amber);
+  border-radius:12px;padding:18px 20px;
+}
+.cj-idea h3{font-size:15px}
+.cj-idea p{margin:0;font-size:13px;color:var(--cj-sub)}
+.cj-idea ol{margin:8px 0 0;padding-left:18px;font-size:13px;color:var(--cj-sub)}
+/* news */
+.cj-news{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:start}
+.cj-news-list{display:flex;flex-direction:column;gap:12px}
+.cj-news-item{
+  background:#fff;border:1px solid var(--cj-line);border-radius:12px;padding:14px 16px;
+  display:flex;gap:14px;align-items:flex-start;transition:border-color .2s;
+}
+.cj-news-item:hover{border-color:#c8d5e6}
+.cj-news-date{
+  flex:0 0 auto;font-size:12px;color:var(--cj-amber-deep);font-weight:700;
+  background:#fff6ec;border-radius:8px;padding:4px 8px;line-height:1.4;text-align:center;
+}
+.cj-news-item p{margin:2px 0 0;font-size:13px;color:var(--cj-sub)}
+.cj-rank{background:#fff;border:1px solid var(--cj-line);border-radius:var(--cj-radius);padding:20px}
+.cj-rank h3{font-size:15px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center}
+.cj-rank-row{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px dashed var(--cj-line);font-size:13.5px}
+.cj-rank-row:last-child{border-bottom:0}
+.cj-rank-no{
+  width:22px;height:22px;border-radius:7px;background:var(--cj-mist);color:var(--cj-ink-soft);
+  display:grid;place-items:center;font-size:12px;font-weight:700;flex:0 0 auto;
+}
+.cj-rank-no.cj-top{background:var(--cj-amber);color:#17263c}
+.cj-rank-row span{flex:1;color:var(--cj-text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cj-rank-row em{font-style:normal;color:var(--cj-sub);font-size:12px}
+/* brand story */
+.cj-story{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start}
+.cj-story-copy p{font-size:14.5px;color:var(--cj-sub);margin:0 0 14px}
+.cj-story-list{display:grid;gap:12px;margin-top:20px}
+.cj-story-point{display:flex;gap:12px;background:#fff;border:1px solid var(--cj-line);border-radius:12px;padding:14px}
+.cj-story-point b{color:var(--cj-ink);font-size:14px;display:block}
+.cj-story-point p{margin:2px 0 0;font-size:12.5px;color:var(--cj-sub)}
+.cj-story-point-num{
+  width:30px;height:30px;border-radius:9px;background:var(--cj-ink);color:#fff;
+  display:grid;place-items:center;font-size:13px;font-weight:800;flex:0 0 auto;
+}
+.cj-deep{
+  background:linear-gradient(180deg,#fff,#f7fafd);border:1px solid var(--cj-line);
+  border-radius:var(--cj-radius);padding:24px;position:sticky;top:120px;
+}
+.cj-deep h3{font-size:17px;margin-bottom:12px}
+.cj-deep p{font-size:13.5px;color:var(--cj-sub);margin:0 0 12px}
+.cj-deep .cj-keywords{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.cj-deep .cj-keywords span{background:var(--cj-mist);border-radius:999px;font-size:11.5px;padding:3px 10px;color:var(--cj-ink-soft)}
+/* faq */
+.cj-faq{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
+.cj-faq details{
+  background:#fff;border:1px solid var(--cj-line);border-radius:12px;padding:14px 18px;
+}
+.cj-faq details[open]{border-color:#c8d5e6;box-shadow:0 6px 16px rgba(23,38,60,.06)}
+.cj-faq summary{
+  cursor:pointer;font-weight:600;color:var(--cj-ink);font-size:14.5px;list-style:none;
+  display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.cj-faq summary::-webkit-details-marker{display:none}
+.cj-faq summary::after{content:"+";color:var(--cj-amber-deep);font-size:18px;font-weight:700}
+.cj-faq details[open] summary::after{content:"−"}
+.cj-faq p{margin:10px 0 0;font-size:13.5px;color:var(--cj-sub)}
+/* contact */
+.cj-contact{
+  display:grid;grid-template-columns:1.1fr .9fr;gap:24px;
+  background:linear-gradient(135deg,#17263c,#243a58);border-radius:20px;
+  padding:38px;color:#e8eef7;
+}
+.cj-contact h2{color:#fff}
+.cj-contact p{color:#b9c6d8;font-size:14px}
+.cj-contact-list{display:grid;gap:10px;margin:18px 0 0;font-size:13.5px;color:#cdd8e7}
+.cj-contact-list span{color:var(--cj-amber);font-weight:700;margin-right:8px}
+.cj-contact-form{display:flex;flex-direction:column;gap:10px;background:rgba(255,255,255,.06);padding:20px;border-radius:14px;border:1px solid rgba(255,255,255,.14)}
+.cj-contact-form input,.cj-contact-form textarea{
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:10px;
+  padding:10px 12px;color:#fff;font-size:13.5px;outline:none;font-family:inherit;
+}
+.cj-contact-form input::placeholder,.cj-contact-form textarea::placeholder{color:#9fb0c6}
+.cj-contact-form input:focus,.cj-contact-form textarea:focus{border-color:var(--cj-amber)}
+.cj-toast{
+  position:fixed;left:50%;bottom:32px;transform:translate(-50%,20px);
+  background:var(--cj-ink);color:#fff;padding:11px 22px;border-radius:999px;
+  font-size:13.5px;box-shadow:0 12px 30px rgba(0,0,0,.28);opacity:0;pointer-events:none;
+  transition:opacity .28s,transform .28s;z-index:200;
+}
+.cj-toast.cj-show{opacity:1;transform:translate(-50%,0)}
+.cj-modal{
+  position:fixed;inset:0;background:rgba(15,27,45,.55);display:none;
+  align-items:center;justify-content:center;padding:20px;z-index:150;
+}
+.cj-modal.cj-show{display:flex}
+.cj-modal-box{
+  background:#fff;border-radius:18px;padding:26px;max-width:460px;width:100%;
+  box-shadow:0 30px 60px rgba(0,0,0,.3);position:relative;
+}
+.cj-modal-box h3{font-size:18px;margin-bottom:10px}
+.cj-modal-box p{font-size:13.5px;color:var(--cj-sub);margin:0 0 16px}
+.cj-modal-close{
+  position:absolute;right:14px;top:12px;border:0;background:var(--cj-mist);
+  width:30px;height:30px;border-radius:50%;cursor:pointer;color:var(--cj-ink);font-size:15px;
+}
+.cj-share-row{display:flex;gap:10px;flex-wrap:wrap}
+.cj-share-row button{border:1px solid var(--cj-line);background:#fff;border-radius:10px;padding:8px 16px;cursor:pointer;font-size:13px;color:var(--cj-ink)}
+.cj-share-row button:hover{border-color:var(--cj-amber)}
+.cj-footer{background:#0f1b2d;color:#a9b8cb;padding:52px 0 26px;font-size:13.5px}
+.cj-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:30px;margin-bottom:34px}
+.cj-footer h4{color:#fff;font-size:14px;margin:0 0 12px}
+.cj-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.cj-footer a:hover{color:var(--cj-amber)}
+.cj-footer-brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;font-size:17px;margin-bottom:12px}
+.cj-footer-note{font-size:12.5px;color:#7d8fa6;line-height:1.8}
+.cj-footer-bottom{
+  border-top:1px solid rgba(255,255,255,.1);padding-top:18px;display:flex;
+  justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12.5px;color:#7d8fa6;
+}
+.cj-top-btn{
+  position:fixed;right:24px;bottom:26px;width:44px;height:44px;border-radius:50%;
+  background:var(--cj-ink);color:#fff;border:0;cursor:pointer;display:none;
+  place-items:center;font-size:18px;box-shadow:0 10px 24px rgba(23,38,60,.3);z-index:120;
+}
+.cj-top-btn.cj-show{display:grid}
+.cj-readmore{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.cj-readmore.cj-open{max-height:1400px}
+.cj-toggle-article{
+  margin-top:14px;border:1px dashed var(--cj-line);background:#fff;border-radius:10px;
+  padding:8px 16px;font-size:13px;color:var(--cj-ink-soft);cursor:pointer;
+}
+.cj-toggle-article:hover{border-color:var(--cj-amber);color:var(--cj-amber-deep)}
+@media (max-width:960px){
+  .cj-hero-grid,.cj-focus-grid,.cj-story,.cj-contact,.cj-news{grid-template-columns:1fr}
+  .cj-creators{grid-template-columns:repeat(2,1fr)}
+  .cj-grid-3,.cj-topic,.cj-quotes,.cj-inspire{grid-template-columns:repeat(2,1fr)}
+  .cj-deep{position:static}
+}
+@media (max-width:720px){
+  .cj-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;background:#fff;
+    padding:12px 20px 18px;border-bottom:1px solid var(--cj-line);box-shadow:var(--cj-shadow);
+    flex-direction:column;gap:2px;
+  }
+  .cj-nav.cj-open{display:flex}
+  .cj-header-inner{position:relative;gap:12px;flex-wrap:wrap}
+  .cj-burger{display:grid;place-items:center;margin-left:auto}
+  .cj-search{order:3;flex:1 1 100%}
+  .cj-search input{width:100%}
+  .cj-grid-3,.cj-grid-2,.cj-topic,.cj-quotes,.cj-inspire,.cj-creators{grid-template-columns:1fr}
+  .cj-focus-side .cj-card{flex-direction:column}
+  .cj-focus-side .cj-cover{width:100%;flex:none;aspect-ratio:16/9}
+  .cj-wall{grid-template-columns:repeat(6,1fr)}
+  .cj-wall-a,.cj-wall-b,.cj-wall-c,.cj-wall-d,.cj-wall-e,.cj-wall-f{grid-column:span 6}
+  .cj-footer-grid{grid-template-columns:1fr 1fr}
+  .cj-contact{padding:24px}
+  .cj-sec{padding:46px 0}
+  .cj-stats{grid-template-columns:1fr;max-width:100%}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="cj-sticky-head" id="cjTop">
+  <div class="cj-notice">
+    <span class="cj-notice-tag">官方发布</span>
+    <span>「布拉格午后·街头对话」第三季第 12 期已上线，本季新增 6 座城市的在地记录。</span>
+    <a href="#cjNews">查看更新日志</a>
+  </div>
+  <header class="cj-header">
+    <div class="cj-header-inner">
+      <a class="cj-logo" href="#cjTop" aria-label="捷克街头搭讪官方网站首页">
+        <span class="cj-logo-mark">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#f2a24b"/></svg>
+        </span>
+        <span>捷克街头搭讪<small>OFFICIAL · 影像社区</small></span>
+      </a>
+      <nav class="cj-nav" id="cjNav" aria-label="主导航">
+        <a href="#cjFocus">焦点内容</a>
+        <a href="#cjVideos">热门影像</a>
+        <a href="#cjTopics">专题企划</a>
+        <a href="#cjCreators">创作者</a>
+        <a href="#cjStory">品牌故事</a>
+        <a href="#cjNews">官方动态</a>
+        <a href="#cjFaq">帮助</a>
+        <a href="#cjContact">联系投稿</a>
+      </nav>
+      <div class="cj-search">
+        <input type="search" id="cjSearchInput" placeholder="搜索影像 / 创作者 / 城市" aria-label="站内搜索">
+        <button type="button" id="cjSearchBtn" aria-label="执行搜索">🔍</button>
+        <div class="cj-search-tip" id="cjSearchTip"></div>
+      </div>
+      <button class="cj-burger" id="cjBurger" aria-label="展开导航" aria-expanded="false">☰</button>
+    </div>
+  </header>
+</div>
+
+<!-- 首屏 -->
+<section class="cj-hero" aria-labelledby="cjHeroTitle">
+  <div class="cj-wrap cj-hero-grid">
+    <div>
+      <span class="cj-hero-badge"><span class="cj-dot"></span>官网 · 真实街头影像品牌</span>
+      <h1 id="cjHeroTitle">捷克街头搭讪<span> · </span>真实对话影像社区</h1>
+      <p class="cj-hero-lead">
+        这里是「捷克街头搭讪」官方网站。我们是一家专注于城市街头真实对话记录的视频品牌，
+        用镜头保存陌生人之间自然发生的问候、交谈与善意，为创作者与企业搭建高品质内容生态。
+      </p>
+      <div class="cj-hero-actions">
+        <a class="cj-btn cj-btn-main" href="#cjVideos">浏览最新影像</a>
+        <a class="cj-btn cj-btn-ghost" href="#cjCreators">认识创作者</a>
+        <a class="cj-btn cj-btn-amber" href="#cjContact">投稿你的记录</a>
+      </div>
+      <div class="cj-stats">
+        <div class="cj-stat"><b>1,286</b><span>已收录原创短片</span></div>
+        <div class="cj-stat"><b>42 城</b><span>街头记录覆盖城市</span></div>
+        <div class="cj-stat"><b>18.6 万</b><span>社区创作者与观众</span></div>
+      </div>
+    </div>
+    <div class="cj-hero-visual">
+      <div class="cj-hero-card">
+        <svg viewBox="0 0 640 400" role="img" aria-label="布拉格老城广场街头对话记录的封面画面">
+          <defs>
+            <linearGradient id="cjHeroSky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#f6c98a"/>
+              <stop offset="0.55" stop-color="#e88f5a"/>
+              <stop offset="1" stop-color="#8f4b62"/>
+            </linearGradient>
+            <linearGradient id="cjHeroGround" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#5a3f4f"/>
+              <stop offset="1" stop-color="#2c2438"/>
+            </linearGradient>
+            <linearGradient id="cjHeroSun" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ffe7b8"/>
+              <stop offset="1" stop-color="#f2a24b"/>
+            </linearGradient>
+          </defs>
+          <rect width="640" height="400" fill="url(#cjHeroSky)"/>
+          <circle cx="500" cy="120" r="58" fill="url(#cjHeroSun)" opacity="0.95"/>
+          <path d="M0 250 L140 175 L260 235 L360 160 L520 245 L640 195 L640 400 L0 400 Z" fill="url(#cjHeroGround)"/>
+          <g fill="#2b2233" opacity="0.92">
+            <rect x="70" y="150" width="70" height="120" rx="6"/>
+            <rect x="150" y="126" width="56" height="144" rx="6"/>
+            <rect x="214" y="164" width="82" height="106" rx="6"/>
+            <rect x="430" y="140" width="66" height="130" rx="6"/>
+            <rect x="506" y="168" width="88" height="102" rx="6"/>
+          </g>
+          <g fill="#ffe2b0" opacity="0.8">
+            <rect x="80" y="166" width="14" height="18" rx="2"/>
+            <rect x="104" y="166" width="14" height="18" rx="2"/>
+            <rect x="80" y="196" width="14" height="18" rx="2"/>
+            <rect x="104" y="196" width="14" height="18" rx="2"/>
+            <rect x="226" y="180" width="15" height="16" rx="2"/>
+            <rect x="250" y="180" width="15" height="16" rx="2"/>
+            <rect x="226" y="208" width="15" height="16" rx="2"/>
+            <rect x="250" y="208" width="15" height="16" rx="2"/>
+            <rect x="444" y="158" width="14" height="16" rx="2"/>
+            <rect x="468" y="158" width="14" height="16" rx="2"/>
+            <rect x="444" y="186" width="14" height="16" rx="2"/>
+            <rect x="468" y="186" width="14" height="16" rx="2"/>
+          </g>
+          <g>
+            <rect x="0" y="276" width="640" height="10" fill="#1f1a2a" opacity="0.6"/>
+            <rect x="0" y="286" width="640" height="114" fill="#1b1726" opacity="0.55"/>
+          </g>
+          <g>
+            <circle cx="240" cy="300" r="17" fill="#3c3350"/>
+            <rect x="228" y="318" width="24" height="52" rx="10" fill="#3c3350"/>
+            <circle cx="386" cy="304" r="17" fill="#554a6d"/>
+            <rect x="374" y="322" width="24" height="50" rx="10" fill="#554a6d"/>
+            <circle cx="300" cy="314" r="13" fill="#4d425f"/>
+            <rect x="291" y="328" width="18" height="40" rx="8" fill="#4d425f"/>
+          </g>
+          <g opacity="0.85">
+            <rect x="196" y="268" width="26" height="14" rx="4" fill="#e9d4b4"/>
+            <rect x="200" y="272" width="18" height="3" rx="1.5" fill="#b5895a"/>
+          </g>
+          <g opacity="0.9">
+            <rect x="440" y="60" width="120" height="30" rx="15" fill="rgba(15,27,45,.55)"/>
+            <text x="500" y="80" text-anchor="middle" font-size="14" fill="#fff" font-family="sans-serif">STREET TALK</text>
+          </g>
+        </svg>
+      </div>
+      <div class="cj-float-tag">
+        本周精选
+        <small>布拉格老城广场 · 午后对话</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 焦点内容 -->
+<section class="cj-sec" id="cjFocus" aria-labelledby="cjFocusTitle">
+  <div class="cj-wrap">
+    <div class="cj-sec-head">
+      <div class="cj-eyebrow">FOCUS · 焦点内容</div>
+      <h2 id="cjFocusTitle">编辑推荐：本周值得被记住的街头片段</h2>
+      <p>由「捷克街头搭讪」内容编辑部从数百条投稿中挑选，聚焦真实对话、城市细节与人物温度。</p>
+    </div>
+    <div class="cj-focus-grid">
+      <article class="cj-card cj-focus-main">
+        <div class="cj-cover">
+          <svg viewBox="0 0 640 360" role="img" aria-label="查理大桥清晨街头问候记录的封面画面">
+            <defs>
+              <linearGradient id="cjF1a" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#bfd6e8"/>
+                <stop offset="1" stop-color="#7f9bb5"/>
+              </linearGradient>
+              <linearGradient id="cjF1b" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#8fa6bd"/>
+                <stop offset="1" stop-color="#4a5d75"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="360" fill="url(#cjF1a)"/>
+            <circle cx="110" cy="80" r="42" fill="#f6efdc" opacity="0.9"/>
+            <path d="M0 220 Q160 190 320 220 T640 214 L640 360 L0 360 Z" fill="url(#cjF1b)"/>
+            <g fill="#35475c">
+              <rect x="60" y="180" width="26" height="60" rx="4"/>
+              <rect x="110" y="164" width="26" height="76" rx="4"/>
+              <rect x="160" y="180" width="26" height="60" rx="4"/>
+              <rect x="430" y="170" width="30" height="70" rx="4"/>
+              <rect x="486" y="182" width="30" height="58" rx="4"/>
+            </g>
+            <path d="M0 300 Q320 260 640 300 L640 360 L0 360 Z" fill="#2c3b4d"/>
+            <g>
+              <circle cx="300" cy="284" r="15" fill="#243244"/>
+              <rect x="288" y="300" width="24" height="44" rx="10" fill="#243244"/>
+              <circle cx="352" cy="288" r="15" fill="#3b4d63"/>
+              <rect x="340" y="304" width="24" height="42" rx="10" fill="#3b4d63"/>
+            </g>
+            <rect x="240" y="44" width="178" height="34" rx="17" fill="rgba(255,255,255,.85)"/>
+            <text x="329" y="66" text-anchor="middle" font-size="15" fill="#2c3b4d" font-family="sans-serif">MORNING · 06:40</text>
+          </svg>
+          <span class="cj-cover-tag">人物访谈</span>
+          <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+        </div>
+        <div class="cj-card-body">
+          <h3>《查理大桥的第一声早上好》——与三位晨跑者的十五分钟对话</h3>
+          <p>清晨六点四十分，桥面还留着昨夜的薄雾。摄影师阿澜用固定机位记录下三位布拉格本地晨跑者与游客自然交谈的过程，没有脚本，也没有台词提示，只有真实发生的问候与笑声。</p>
+          <div class="cj-meta">
+            <span class="cj-avatar" style="background:#d97f21">澜</span>
+            <span>创作者 阿澜</span><span>·</span><span>2.3 万播放</span><span>·</span><span>11月17日</span>
+          </div>
+          <div class="cj-card-actions">
+            <button class="cj-act cj-like" type="button" data-count="426"><span>♥</span><b>426</b></button>
+            <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+            <button class="cj-act cj-share" type="button" data-title="查理大桥的第一声早上好">分享</button>
+          </div>
+        </div>
+      </article>
+      <div class="cj-focus-side">
+        <article class="cj-card">
+          <div class="cj-cover">
+            <svg viewBox="0 0 320 200" role="img" aria-label="布拉格地铁站随机问候选题的封面画面">
+              <rect width="320" height="200" fill="#2f3f57"/>
+              <rect x="0" y="140" width="320" height="60" fill="#1d2a3c"/>
+              <g fill="#f2a24b" opacity="0.85">
+                <rect x="26" y="28" width="54" height="12" rx="6"/>
+                <rect x="26" y="48" width="34" height="12" rx="6"/>
+              </g>
+              <g>
+                <circle cx="118" cy="104" r="18" fill="#e8eef7"/>
+                <rect x="104" y="126" width="28" height="46" rx="12" fill="#e8eef7"/>
+                <circle cx="190" cy="112" r="18" fill="#b8c8db"/>
+                <rect x="176" y="134" width="28" height="40" rx="12" fill="#b8c8db"/>
+              </g>
+              <rect x="228" y="60" width="66" height="66" rx="10" fill="#3f5370"/>
+              <rect x="238" y="72" width="18" height="16" rx="2" fill="#f6d9a8"/>
+              <rect x="264" y="72" width="18" height="16" rx="2" fill="#f6d9a8"/>
+              <text x="160" y="188" text-anchor="middle" font-size="12" fill="#9fb0c6" font-family="sans-serif">METRO · ANDĚL</text>
+            </svg>
+            <span class="cj-cover-tag">城市探索</span>
+            <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+          </div>
+          <div class="cj-card-body">
+            <h3>在地铁 Anděl 站，问一句「今天过得怎么样」</h3>
+            <p>十二位通勤者的答案，拼出一座城市清晨的情绪底片。</p>
+            <div class="cj-meta">
+              <span class="cj-avatar" style="background:#3f5370">舟</span>
+              <span>创作者 一舟</span><span>·</span><span>1.1 万播放</span>
+            </div>
+            <div class="cj-card-actions">
+              <button class="cj-act cj-like" type="button" data-count="188"><span>♥</span><b>188</b></button>
+              <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+              <button class="cj-act cj-share" type="button" data-title="在地铁 Anděl 站问一句今天过得怎么样">分享</button>
+            </div>
+          </div>
+        </article>
+        <article class="cj-card">
+          <div class="cj-cover">
+            <svg viewBox="0 0 320 200" role="img" aria-label="布尔诺街角咖啡摊对话记录的封面画面">
+              <rect width="320" height="200" fill="#f2e3cc"/>
+              <rect x="0" y="130" width="320" height="70" fill="#c99a66"/>
+              <rect x="0" y="130" width="320" height="8" fill="#a97b4b"/>
+              <g fill="#7c5a3a">
+                <rect x="52" y="70" width="64" height="60" rx="8"/>
+                <rect x="196" y="64" width="72" height="66" rx="8"/>
+              </g>
+              <g fill="#fff8ec">
+                <rect x="64" y="82" width="18" height="24" rx="3"/>
+                <rect x="88" y="82" width="18" height="24" rx="3"/>
+                <rect x="208" y="78" width="20" height="26" rx="3"/>
+                <rect x="234" y="78" width="20" height="26" rx="3"/>
+              </g>
+              <circle cx="152" cy="120" r="16" fill="#5a4a3c"/>
+              <rect x="140" y="136" width="24" height="44" rx="10" fill="#5a4a3c"/>
+              <circle cx="278" cy="122" r="14" fill="#7a6450"/>
+              <rect x="268" y="136" width="20" height="40" rx="9" fill="#7a6450"/>
+              <text x="160" y="188" text-anchor="middle" font-size="12" fill="#7c5a3a" font-family="sans-serif">COFFEE · BRNO</text>
+            </svg>
+            <span class="cj-cover-tag">日常记录</span>
+            <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+          </div>
+          <div class="cj-card-body">
+            <h3>布尔诺街角咖啡摊：一杯拿铁换一段故事</h3>
+            <p>摊主说他每天只问一个问题，今天的问题是「你最近在等什么」。</p>
+            <div class="cj-meta">
+              <span class="cj-avatar" style="background:#c99a66">木</span>
+              <span>创作者 木子</span><span>·</span><span>8,640 播放</span>
+            </div>
+            <div class="cj-card-actions">
+              <button class="cj-act cj-like" type="button" data-count="142"><span>♥</span><b>142</b></button>
+              <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+              <button class="cj-act cj-share" type="button" data-title="布尔诺街角咖啡摊：一杯拿铁换一段故事">分享</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 热门影像 -->
+<section class="cj-sec cj-sec-alt" id="cjVideos" aria-labelledby="cjVideosTitle">
+  <div class="cj-wrap">
+    <div class="cj-sec-head">
+      <div class="cj-eyebrow">POPULAR · 热门影像</div>
+      <h2 id="cjVideosTitle">社区正在关注的街头记录</h2>
+      <p>按题材筛选你感兴趣的方向，所有内容均为创作者原创投稿，经编辑部审核后发布。</p>
+    </div>
+    <div class="cj-filter-bar" id="cjFilters">
+      <button class="cj-filter cj-on" type="button" data-filter="all">全部</button>
+      <button class="cj-filter" type="button" data-filter="城市">城市探索</button>
+      <button class="cj-filter" type="button" data-filter="人物">人物访谈</button>
+      <button class="cj-filter" type="button" data-filter="技巧">实用技巧</button>
+      <button class="cj-filter" type="button" data-filter="治愈">治愈影像</button>
+    </div>
+    <div class="cj-grid-3" id="cjVideoGrid">
+      <article class="cj-card" data-cat="城市">
+        <div class="cj-cover">
+          <svg viewBox="0 0 400 225" role="img" aria-label="布拉格伏尔塔瓦河畔黄昏散步对谈的封面画面">
+            <defs><linearGradient id="cjV1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3b26f"/><stop offset="1" stop-color="#9c5b6b"/></linearGradient></defs>
+            <rect width="400" height="225" fill="url(#cjV1)"/>
+            <circle cx="320" cy="60" r="34" fill="#ffe2b0" opacity="0.9"/>
+            <path d="M0 140 L90 110 L180 138 L260 112 L340 142 L400 120 L400 225 L0 225 Z" fill="#3a2c3d"/>
+            <path d="M0 160 Q200 140 400 164 L400 225 L0 225 Z" fill="#2a2031"/>
+            <rect x="140" y="156" width="120" height="6" rx="3" fill="#e7c9a0" opacity="0.7"/>
+            <g fill="#211a28"><circle cx="176" cy="166" r="9"/><circle cx="224" cy="170" r="9"/></g>
+          </svg>
+          <span class="cj-cover-tag">城市探索</span>
+          <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+        </div>
+        <div class="cj-card-body">
+          <h3>沿着伏尔塔瓦河走完一整个黄昏</h3>
+          <p>镜头跟着两位刚认识的旅人走了四十分钟，聊工作、聊家乡，也聊怕不怕陌生。</p>
+          <div class="cj-meta">
+            <span class="cj-avatar" style="background:#9c5b6b">岩</span><span>创作者 岩井</span><span>·</span><span>3.6 万播放</span>
+          </div>
+          <div class="cj-card-actions">
+            <button class="cj-act cj-like" type="button" data-count="612"><span>♥</span><b>612</b></button>
+            <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+            <button class="cj-act cj-share" type="button" data-title="沿着伏尔塔瓦河走完一整个黄昏">分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="cj-card" data-cat="人物">
+        <div class="cj-cover">
+          <svg viewBox="0 0 400 225" role="img" aria-label="克鲁姆洛夫老城手风琴艺人对谈的封面画面">
+            <rect width="400" height="225" fill="#dfe8f0"/>
+            <rect x="0" y="150" width="400" height="75" fill="#a9bccd"/>
+            <g fill="#6c8298">
+              <rect x="30" y="70" width="58" height="88" rx="6"/>
+              <rect x="100" y="52" width="48" height="106" rx="6"/>
+              <rect x="160" y="80" width="66" height="78" rx="6"/>
+              <rect x="300" y="64" width="70" height="94" rx="6"/>
+            </g>
+            <g fill="#f6e7c8" opacity="0.9">
+              <rect x="42" y="84" width="12" height="14" rx="2"/>
+              <rect x="62" y="84" width="12" height="14" rx="2"/>
+              <rect x="112" y="68" width="12" height="14" rx="2"/>
+              <rect x="132" y="68" width="12" height="14" rx="2"/>
+              <rect x="314" y="78" width="12" height="14" rx="2"/>
+              <rect x="334" y="78" width="12" height="14" rx="2"/>
+            </g>
+            <circle cx="240" cy="128" r="16" fill="#4b5d70"/>
+            <rect x="228" y="146" width="24" height="52" rx="10" fill="#4b5d70"/>
+            <rect x="258" y="140" width="34" height="22" rx="5" fill="#c98a4b"/>
+            <rect x="262" y="146" width="26" height="3" rx="1.5" fill="#8a5a2c"/>
+            <text x="200" y="212" text-anchor="middle" font-size="12" fill="#4b5d70" font-family="sans-serif">ČESKÝ KRUMLOV</text>
+          </svg>
+          <span class="cj-cover-tag">人物访谈</span>
+          <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+        </div>
+        <div class="cj-card-body">
+          <h3>手风琴艺人米洛斯：我在广场拉了十九年琴</h3>
+          <p>他记得每一位愿意停下来听完一整首曲子的人，也记得他们来自哪些城市。</p>
+          <div class="cj-meta">
+            <span class="cj-avatar" style="background:#6c8298">禾</span><span>创作者 禾野</span><span>·</span><span>2.9 万播放</span>
+          </div>
+          <div class="cj-card-actions">
+            <button class="cj-act cj-like" type="button" data-count="503"><span>♥</span><b>503</b></button>
+            <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+            <button class="cj-act cj-share" type="button" data-title="手风琴艺人米洛斯：我在广场拉了十九年琴">分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="cj-card" data-cat="技巧">
+        <div class="cj-cover">
+          <svg viewBox="0 0 400 225" role="img" aria-label="街头搭讪收音与镜头稳定技巧教学的封面画面">
+            <rect width="400" height="225" fill="#1f2b3d"/>
+            <g stroke="#f2a24b" stroke-width="2" fill="none" opacity="0.85">
+              <rect x="46" y="40" width="90" height="60" rx="8"/>
+              <rect x="160" y="40" width="90" height="60" rx="8"/>
+              <rect x="274" y="40" width="90" height="60" rx="8"/>
+            </g>
+            <g fill="#5d7591">
+              <rect x="46" y="120" width="318" height="12" rx="6"/>
+              <rect x="46" y="146" width="238" height="12" rx="6"/>
+              <rect x="46" y="172" width="286" height="12" rx="6"/>
+            </g>
+            <circle cx="330" cy="176" r="24" fill="#f2a24b"/>
+            <path d="M322 168 L340 176 L322 184 Z" fill="#17263c"/>
+            <text x="60" y="84" font-size="13" fill="#f2a24b" font-family="sans-serif">AUDIO</text>
+            <text x="174" y="84" font-size="13" fill="#f2a24b" font-family="sans-serif">LIGHT</text>
+            <text x="288" y="84" font-size="13" fill="#f2a24b" font-family="sans-serif">FRAME</text>
+          </svg>
+          <span class="cj-cover-tag">实用技巧</span>
+          <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+        </div>
+        <div class="cj-card-body">
+          <h3>街头随机对话收音：一支指向麦的正确拿法</h3>
+          <p>从环境噪声判断到防风毛套选择，创作者无衣拆解了七个常见收音误区。</p>
+          <div class="cj-meta">
+            <span class="cj-avatar" style="background:#2f4258">衣</span><span>创作者 无衣</span><span>·</span><span>2.1 万播放</span>
+          </div>
+          <div class="cj-card-actions">
+            <button class="cj-act cj-like" type="button" data-count="377"><span>♥</span><b>377</b></button>
+            <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+            <button class="cj-act cj-share" type="button" data-title="街头随机对话收音：一支指向麦的正确拿法">分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="cj-card" data-cat="治愈">
+        <div class="cj-cover">
+          <svg viewBox="0 0 400 225" role="img" aria-label="布拉格雨夜街头共伞记录的封面画面">
+            <defs><linearGradient id="cjV4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#31465f"/><stop offset="1" stop-color="#16202e"/></linearGradient></defs>
+            <rect width="400" height="225" fill="url(#cjV4)"/>
+            <g stroke="#7f9bb5" stroke-width="1.4" opacity="0.55">
+              <line x1="40" y1="0" x2="20" y2="70"/><line x1="110" y1="0" x2="90" y2="80"/>
+              <line x1="190" y1="0" x2="170" y2="72"/><line x1="270" y1="0" x2="250" y2="84"/>
+              <line x1="350" y1="0" x2="330" y2="66"/>
+            </g>
+            <rect x="0" y="176" width="400" height="49" fill="#0f1822"/>
+            <g fill="#f2a24b" opacity="0.75">
+              <circle cx="80" cy="150" r="4"/><circle cx="300" cy="140" r="4"/><circle cx="196" cy="160" r="4"/>
+            </g>
+            <path d="M150 130 Q200 92 250 130 Z" fill="#c2583f"/>
+            <rect x="198" y="130" width="3" height="46" fill="#e8eef7"/>
+            <circle cx="186" cy="148" r="9" fill="#22303f"/>
+            <circle cx="216" cy="148" r="9" fill="#2f4155"/>
+            <text x="200" y="212" text-anchor="middle" font-size="12" fill="#7f9bb5" font-family="sans-serif">RAIN · PRAHA</text>
+          </svg>
+          <span class="cj-cover-tag">治愈影像</span>
+          <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+        </div>
+        <div class="cj-card-body">
+          <h3>雨夜共伞：一个没有台词的七分钟</h3>
+          <p>没有采访，没有旁白，只有雨声和两个陌生人共享一把伞的脚步。</p>
+          <div class="cj-meta">
+            <span class="cj-avatar" style="background:#31465f">汐</span><span>创作者 汐见</span><span>·</span><span>4.4 万播放</span>
+          </div>
+          <div class="cj-card-actions">
+            <button class="cj-act cj-like" type="button" data-count="728"><span>♥</span><b>728</b></button>
+            <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+            <button class="cj-act cj-share" type="button" data-title="雨夜共伞：一个没有台词的七分钟">分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="cj-card" data-cat="城市">
+        <div class="cj-cover">
+          <svg viewBox="0 0 400 225" role="img" aria-label="布拉格早市问路记录的封面画面">
+            <rect width="400" height="225" fill="#f5ead5"/>
+            <rect x="0" y="150" width="400" height="75" fill="#d8c3a0"/>
+            <g fill="#b5533c">
+              <rect x="24" y="96" width="112" height="10" rx="5"/>
+              <rect x="150" y="96" width="112" height="10" rx="5"/>
+              <rect x="276" y="96" width="100" height="10" rx="5"/>
+            </g>
+            <g fill="#8fa86a">
+              <circle cx="56" cy="128" r="14"/><circle cx="84" cy="128" r="14"/><circle cx="112" cy="128" r="14"/>
+            </g>
+            <g fill="#e3a04b">
+              <circle cx="182" cy="128" r="13"/><circle cx="208" cy="128" r="13"/><circle cx="234" cy="128" r="13"/>
+            </g>
+            <g fill="#c2583f">
+              <circle cx="306" cy="128" r="13"/><circle cx="332" cy="128" r="13"/><circle cx="358" cy="128" r="13"/>
+            </g>
+            <circle cx="200" cy="158" r="15" fill="#6b5744"/>
+            <rect x="188" y="174" width="24" height="46" rx="10" fill="#6b5744"/>
+            <circle cx="270" cy="164" r="14" fill="#8a7359"/>
+            <rect x="259" y="178" width="22" height="42" rx="9" fill="#8a7359"/>
+            <text x="200" y="214" text-anchor="middle" font-size="12" fill="#8a7359" font-family="sans-serif">MARKET · 08:15</text>
+          </svg>
+          <span class="cj-cover-tag">城市探索</span>
+          <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+        </div>
+        <div class="cj-card-body">
+          <h3>在布拉格早市假装迷路，遇见八种善意</h3>
+          <p>一次次问路，一次次被认真指路，有人甚至放下手里的菜篮子带我们走过去。</p>
+          <div class="cj-meta">
+            <span class="cj-avatar" style="background:#b5533c">叶</span><span>创作者 叶迟</span><span>·</span><span>1.9 万播放</span>
+          </div>
+          <div class="cj-card-actions">
+            <button class="cj-act cj-like" type="button" data-count="341"><span>♥</span><b>341</b></button>
+            <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+            <button class="cj-act cj-share" type="button" data-title="在布拉格早市假装迷路，遇见八种善意">分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="cj-card" data-cat="人物">
+        <div class="cj-cover">
+          <svg viewBox="0 0 400 225" role="img" aria-label="布尔诺大学城年轻创作者对谈的封面画面">
+            <rect width="400" height="225" fill="#e9eef4"/>
+            <rect x="0" y="158" width="400" height="67" fill="#c9d6e3"/>
+            <g fill="#8ba3bd">
+              <rect x="40" y="52" width="140" height="106" rx="8"/>
+              <rect x="220" y="74" width="140" height="84" rx="8"/>
+            </g>
+            <g fill="#f7fafd">
+              <rect x="56" y="68" width="26" height="20" rx="3"/><rect x="92" y="68" width="26" height="20" rx="3"/>
+              <rect x="128" y="68" width="26" height="20" rx="3"/><rect x="56" y="98" width="26" height="20" rx="3"/>
+              <rect x="92" y="98" width="26" height="20" rx="3"/><rect x="128" y="98" width="26" height="20" rx="3"/>
+              <rect x="240" y="90" width="26" height="20" rx="3"/><rect x="276" y="90" width="26" height="20" rx="3"/>
+              <rect x="312" y="90" width="26" height="20" rx="3"/>
+            </g>
+            <circle cx="146" cy="176" r="13" fill="#4f6478"/>
+            <rect x="136" y="190" width="20" height="36" rx="8" fill="#4f6478"/>
+            <circle cx="214" cy="180" r="13" fill="#6d8398"/>
+            <rect x="204" y="194" width="20" height="34" rx="8" fill="#6d8398"/>
+            <text x="200" y="36" text-anchor="middle" font-size="14" fill="#4f6478" font-family="sans-serif">CAMPUS TALK</text>
+          </svg>
+          <span class="cj-cover-tag">人物访谈</span>
+          <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+        </div>
+        <div class="cj-card-body">
+          <h3>大学城的年轻创作者：我们为什么愿意被陌生人搭话</h3>
+          <p>三位大学生聊了聊镜头带来的紧张、好奇，以及被认真倾听时的轻松。</p>
+          <div class="cj-meta">
+            <span class="cj-avatar" style="background:#8ba3bd">白</span><span>创作者 白屿</span><span>·</span><span>1.4 万播放</span>
+          </div>
+          <div class="cj-card-actions">
+            <button class="cj-act cj-like" type="button" data-count="256"><span>♥</span><b>256</b></button>
+            <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+            <button class="cj-act cj-share" type="button" data-title="大学城的年轻创作者：我们为什么愿意被陌生人搭话">分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="cj-card" data-cat="技巧">
+        <div class="cj-cover">
+          <svg viewBox="0 0 400 225" role="img" aria-label="街头拍摄构图与取景教学封面画面">
+            <rect width="400" height="225" fill="#202c3f"/>
+            <g stroke="#f2a24b" stroke-width="1.6" fill="none" opacity="0.8">
+              <line x1="133" y1="0" x2="133" y2="225"/><line x1="266" y1="0" x2="266" y2="225"/>
+              <line x1="0" y1="112" x2="400" y2="112"/>
+            </g>
+            <rect x="110" y="88" width="180" height="140" rx="12" fill="none" stroke="#e8eef7" stroke-width="2" opacity="0.75"/>
+            <circle cx="200" cy="150" r="26" fill="#3a4d66"/>
+            <rect x="184" y="178" width="32" height="50" rx="14" fill="#3a4d66"/>
+            <circle cx="286" cy="88" r="16" fill="#f2a24b"/>
+            <text x="286" y="94" text-anchor="middle" font-size="14" fill="#17263c" font-family="sans-serif">02</text>
+            <text x="200" y="34" text-anchor="middle" font-size="13" fill="#9fb0c6" font-family="sans-serif">三分法 · 视线留白</text>
+          </svg>
+          <span class="cj-cover-tag">实用技巧</span>
+          <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+        </div>
+        <div class="cj-card-body">
+          <h3>让街头人物愿意入镜：三步建立信任感</h3>
+          <p>从开口第一句话到镜头高度，创作者南舟分享了自己失败二十次后的方法。</p>
+          <div class="cj-meta">
+            <span class="cj-avatar" style="background:#3a4d66">南</span><span>创作者 南舟</span><span>·</span><span>1.7 万播放</span>
+          </div>
+          <div class="cj-card-actions">
+            <button class="cj-act cj-like" type="button" data-count="298"><span>♥</span><b>298</b></button>
+            <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+            <button class="cj-act cj-share" type="button" data-title="让街头人物愿意入镜：三步建立信任感">分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="cj-card" data-cat="治愈">
+        <div class="cj-cover">
+          <svg viewBox="0 0 400 225" role="img" aria-label="黄昏庭院街区问候记录封面画面">
+            <defs><linearGradient id="cjV8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7d9a6"/><stop offset="1" stop-color="#d98f66"/></linearGradient></defs>
+            <rect width="400" height="225" fill="url(#cjV8)"/>
+            <circle cx="92" cy="70" r="30" fill="#fff4d8" opacity="0.9"/>
+            <rect x="0" y="150" width="400" height="75" fill="#b07a58"/>
+            <g fill="#8a5c42">
+              <rect x="34" y="76" width="86" height="74" rx="6"/>
+              <rect x="286" y="88" width="86" height="62" rx="6"/>
+            </g>
+            <g fill="#f0d0a8">
+              <rect x="48" y="90" width="20" height="18" rx="3"/><rect x="82" y="90" width="20" height="18" rx="3"/>
+              <rect x="300" y="102" width="20" height="16" rx="3"/><rect x="332" y="102" width="20" height="16" rx="3"/>
+            </g>
+            <g>
+              <circle cx="184" cy="140" r="15" fill="#6a4a3a"/>
+              <rect x="172" y="156" width="24" height="46" rx="10" fill="#6a4a3a"/>
+              <circle cx="236" cy="144" r="15" fill="#87604a"/>
+              <rect x="224" y="160" width="24" height="42" rx="10" fill="#87604a"/>
+            </g>
+            <text x="200" y="214" text-anchor="middle" font-size="12" fill="#8a5c42" font-family="sans-serif">GOLDEN HOUR · 18:20</text>
+          </svg>
+          <span class="cj-cover-tag">治愈影像</span>
+          <span class="cj-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#17263c"/></svg></span>
+        </div>
+        <div class="cj-card-body">
+          <h3>院子门口的十分钟：邻居之间也会聊很久</h3>
+          <p>老城区的居民楼没有电梯，却有最长的寒暄距离。</p>
+          <div class="cj-meta">
+            <span class="cj-avatar" style="background:#b07a58">知</span><span>创作者 知秋</span><span>·</span><span>9,720 播放</span>
+          </div>
+          <div class="cj-card-actions">
+            <button class="cj-act cj-like" type="button" data-count="167"><span>♥</span><b>167</b></button>
+            <button class="cj-act cj-fav" type="button"><span>☆</span>收藏</button>
+            <button class="cj-act cj-share" type="button" data-title="院子门口的十分钟：邻居之间也会聊很久">分享</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 专题企划 -->
+<section class="cj-sec" id="cjTopics" aria-labelledby="cjTopicsTitle">
+  <div class="cj-wrap">
+    <div class="cj-sec-head">
+      <div class="cj-eyebrow">SERIES · 专题企划</div>
+      <h2 id="cjTopicsTitle">正在进行的品牌企划</h2>
+      <p>以「捷克街头搭讪」为方法论，我们持续发起可持续的影像企划，欢迎社区创作者报名参与。</p>
+    </div>
+    <div class="cj-topic">
+      <article class="cj-topic-card" style="background:linear-gradient(150deg,#c2583f,#7a2f2a)">
+        <span class="cj-status">更新至第 12 期</span>
+        <h3>布拉格午后</h3>
+        <p>每周三下午固定发布，记录老城广场周边陌生人的自然对话。</p>
+      </article>
+      <article class="cj-topic-card" style="background:linear-gradient(150deg,#3a5a78,#1f3347)">
+        <span class="cj-status">报名进行中</span>
+        <h3>陌生人问卷计划</h3>
+        <p>用一张卡片、一支笔，向路人提十个关于城市生活的问题。</p>
+      </article>
+      <article class="cj-topic-card" style="background:linear-gradient(150deg,#6b7f4f,#3d4a2c)">
+        <span class="cj-status">长期企划</span>
+        <h3>小城慢谈</h3>
+        <p>走出首都，去布尔诺、奥洛穆茨与克鲁姆洛夫，听小镇居民讲故事。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 创作者矩阵 -->
+<section class="cj-sec cj-sec-alt" id="cjCreators" aria-labelledby="cjCreatorsTitle">
+  <div class="cj-wrap">
+    <div class="cj-sec-head">
+      <div class="cj-eyebrow">CREATORS · 创作者</div>
+      <h2 id="cjCreatorsTitle">这些人构成了我们的内容生态</h2>
+      <p>点击任意创作者卡片可查看简介，他们是「捷克街头搭讪」官网长期合作的原创作者。</p>
+    </div>
+    <div class="cj-creators">
+      <div class="cj-creator" data-creator="阿澜" data-desc="擅长清晨与黄昏光线下的街头人物记录，偏好固定机位与长时间等待，代表作《查理大桥的第一声早上好》。">
+        <div class="cj-creator-avatar" style="background:#d97f21">澜</div>
+        <b>阿澜</b>
+        <p>城市晨昏记录者 · 擅长自然光线人像</p>
+        <div class="cj-creator-num"><div><b>42</b>作品</div><div><b>3.1万</b>关注</div></div>
+      </div>
+      <div class="cj-creator" data-creator="无衣" data-desc="声音设计出身，专注街头录音与后期降噪，制作过多期器材实操与收音技巧干货。">
+        <div class="cj-creator-avatar" style="background:#2f4258">衣</div>
+        <b>无衣</b>
+        <p>声音与器材 · 实用技巧方向</p>
+        <div class="cj-creator-num"><div><b>28</b>作品</div><div><b>2.4万</b>关注</div></div>
+      </div>
+      <div class="cj-creator" data-creator="汐见" data-desc="治愈影像创作者，偏爱雨天、夜晚与无人打扰的角落，作品常以长镜头与同期声为主。">
+        <div class="cj-creator-avatar" style="background:#31465f">汐</div>
+        <b>汐见</b>
+        <p>治愈影像 · 长镜头情绪表达</p>
+        <div class="cj-creator-num"><div><b>35</b>作品</div><div><b>4.6万</b>关注</div></div>
+      </div>
+      <div class="cj-creator" data-creator="叶迟" data-desc="城市探索型作者，喜欢用问路、借火、搭话等轻量互动推进叙事，记录城市的善意密度。">
+        <div class="cj-creator-avatar" style="background:#b5533c">叶</div>
+        <b>叶迟</b>
+        <p>城市探索 · 轻互动叙事</p>
+        <div class="cj-creator-num"><div><b>51</b>作品</div><div><b>2.7万</b>关注</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 品牌故事与深度解析 -->
+<section class="cj-sec" id="cjStory" aria-labelledby="cjStoryTitle">
+  <div class="cj-wrap">
+    <div class="cj-sec-head">
+      <div class="cj-eyebrow">STORY · 品牌故事</div>
+      <h2 id="cjStoryTitle">关于「捷克街头搭讪」的定位与解析</h2>
+      <p>一个以真实对话为核心的视频品牌，如何在中欧城市里持续运营七年。</p>
+    </div>
+    <div class="cj-story">
+      <div class="cj-story-copy">
+        <h3>从一次偶然的问候开始</h3>
+        <p>二〇一九年春天，三位纪录片爱好者在布拉格老城广场做了一次没有脚本的尝试：向陌生人问一句「你好，今天过得怎么样」。那天的素材剪成了七分钟短片，没有配乐，只有街声与回答。它后来成为「捷克街头搭讪」品牌的第一支作品，也奠定了我们的基本方法——不设计台词，不安排反应，只提供一次善意的开口。</p>
+        <p>作为一家专注街头对话影像的企业，我们把自己定义为「真实对话的记录平台」。官网上的每一条内容，都来自创作者在真实城市的真实相遇。我们相信街头是最平等的内容现场：没有门票、没有门槛，只有愿意停下来的人。品牌坚持原创、正版、高清的发布标准，所有素材授权链条清晰，并为每一位入镜者提供完整的知情同意流程。</p>
+        <p>七年时间里，我们的内容生态从布拉格扩展到四十二座城市，涵盖城市探索、人物访谈、实用技巧、治愈影像与在地文化等方向。社区里有职业摄影师，也有刚买下第一支麦克风的学生；有坚持固定机位等待的耐心型作者，也有喜欢边走边聊的即兴型创作者。多元与包容，是我们对内容生态最朴素的期待。</p>
+        <h3>为什么是「搭讪」</h3>
+        <p>「搭讪」在日常语境中常被误解。在这里，它指的是主动、尊重、有边界的开口。我们为创作者制定了三条原则：第一，先说明来意；第二，允许对方随时终止；第三，不追问隐私，不制造冲突。我们希望被拍摄者离开镜头时，比面对镜头前更轻松，而不是更紧张。这也是品牌口碑得以持续积累的原因。</p>
+        <p>从内容结构上看，官网分为焦点内容、热门影像、专题企划、创作者、品牌故事与官方动态几个板块。焦点内容由编辑部挑选，侧重叙事完整度；热门影像由社区数据与人工复核共同决定；专题企划则是品牌主动发起、创作者报名参与的长期项目。我们希望把「企业级的内容标准」和「社区级的活力」放在同一套体系里。</p>
+        <h3>内容生态与长期主义</h3>
+        <p>我们并不追求高频产出，而更在意每个作品是否值得被反复观看。编辑部每季度会做一次内容复盘，把播放量、完播率、收藏率与评论区质量放在一起评估。口碑不是一次传播的结果，而是持续运营中一点点积累的信任。行业领先从来不是自封的标签，而是用户在选择时愿意多想一秒钟。</p>
+        <p>面向未来，我们希望把「捷克街头搭讪」做成一个能被不同城市复用的方法：一套拍摄伦理、一份收音清单、一种对话姿态。比赛、报名、上传、投票这些社区机制也会围绕这套方法展开，让更多普通人有机会完成自己的第一支街头短片。用户至上是我们的底层判断——当创作者与观众的感受产生冲突时，我们优先保护被记录者的尊严。</p>
+        <div class="cj-readmore" id="cjMoreStory">
+          <h3>在地文化与城市细节</h3>
+          <p>捷克的城市空间有一种缓慢的秩序感：电车准点，广场开阔，咖啡便宜，人们愿意在长椅上多坐一会儿。这种节奏让街头对话有了发生的可能。我们在布尔诺记录过一位每天给鸽子喂面包的老太太，在奥洛穆茨拍过一位在喷泉边读诗的大学生，也在克鲁姆洛夫遇到过一位会说中文的民宿老板。这些片段单独看都很轻，放在一起就构成了一个地区的日常切片。</p>
+          <p>为了让内容保持在地性，我们要求创作者在每条作品中标注城市、街区与时间，并尽量保留现场的环境声。环境声是城市的名片：布拉格的电车叮当、布尔诺的市集叫卖、小镇教堂的整点钟声。观众即使没有去过这些地方，也能通过声音辨认出它们的差异。</p>
+          <h3>技术标准与制作流程</h3>
+          <p>官网发布的精品内容统一采用高清标准，画面比例以十六比九为主，重要企划会额外提供竖屏版本。音频方面建议使用指向性麦克风配合防风毛套，后期做轻度降噪，避免过度处理导致环境声失真。字幕需要同时标注说话人与时间码，涉及非中文对话的段落，应提供准确的中文字幕翻译。</p>
+          <p>制作流程分为选题、踩点、拍摄、授权、剪辑、审核与发布七个环节。其中授权环节不可跳过：创作者需向入镜者说明用途、范围与撤回方式，并保留书面或录音凭证。编辑部在审核时会重点检查这一部分。我们相信，只有把流程做扎实，真实才不会变成冒犯，温暖才不会变成消费。</p>
+          <h3>社区与陪伴</h3>
+          <p>社区是这家企业最有生命力的部分。我们设有新人榜与口碑榜，也保留了一个不显示数据的「安静区」，让不擅长运营的创作者可以安心发布。每月一次的线上看片会，会邀请三位作者拆解自己的失败素材。成长往往发生在被看见的失败里，而不是被点赞的成功里。</p>
+          <p>如果你也在城市里举着相机犹豫要不要开口，欢迎来官网看看别人的第一次。我们会继续更新，也会继续在街头等待。真实、温暖、有力量，这三个词不是口号，而是我们每天要重新回答的问题。</p>
+        </div>
+        <button class="cj-toggle-article" type="button" id="cjStoryToggle" aria-expanded="false">展开完整品牌解析</button>
+        <div class="cj-story-list">
+          <div class="cj-story-point">
+            <span class="cj-story-point-num">01</span>
+            <div><b>真实优先</b><p>不设计台词，不安排反应，保留现场环境声与自然停顿。</p></div>
+          </div>
+          <div class="cj-story-point">
+            <span class="cj-story-point-num">02</span>
+            <div><b>尊重边界</b><p>入镜前说明用途，允许随时终止，保护被记录者的隐私与尊严。</p></div>
+          </div>
+          <div class="cj-story-point">
+            <span class="cj-story-point-num">03</span>
+            <div><b>持续运营</b><p>季度复盘、年度企划、长期作者扶持，构建稳定的内容生态。</p></div>
+          </div>
+        </div>
+      </div>
+      <aside class="cj-deep">
+        <h3>关键词定位速览</h3>
+        <p><b>品牌属性：</b>视频品牌官网 · 街头对话影像社区</p>
+        <p><b>内容方向：</b>城市探索、人物访谈、实用技巧、治愈影像、在地文化</p>
+        <p><b>发布标准：</b>原创、正版、高清，授权链路可追溯</p>
+        <p><b>社区机制：</b>投稿审核、专题报名、新人榜、线上看片会</p>
+        <p><b>适合人群：</b>纪录片爱好者、城市观察者、声音设计学习者、独立创作者</p>
+        <div class="cj-keywords">
+          <span>官方网站</span><span>原创</span><span>高清</span><span>创作者</span><span>内容生态</span>
+          <span>品牌故事</span><span>持续运营</span><span>真实</span><span>温暖</span><span>匠心</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- 影像墙 + 创作灵感 -->
+<section class="cj-sec cj-sec-alt" id="cjWall" aria-labelledby="cjWallTitle">
+  <div class="cj-wrap">
+    <div class="cj-sec-head">
+      <div class="cj-eyebrow">GALLERY · 影像墙</div>
+      <h2 id="cjWallTitle">社区影像墙与创作灵感</h2>
+      <p>来自投稿的静帧与脚本片段，记录镜头之外的城市质感。</p>
+    </div>
+    <div class="cj-wall" style="margin-bottom:40px">
+      <div class="cj-wall-item cj-wall-a">
+        <svg viewBox="0 0 500 400" role="img" aria-label="布拉格老城广场钟楼前人群的影像静帧">
+          <defs><linearGradient id="cjW1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe0ec"/><stop offset="1" stop-color="#7d94a8"/></linearGradient></defs>
+          <rect width="500" height="400" fill="url(#cjW1)"/>
+          <rect x="150" y="60" width="120" height="220" rx="8" fill="#5b6f82"/>
+          <circle cx="210" cy="140" r="34" fill="#f0e2c4"/>
+          <rect x="196" y="120" width="28" height="28" fill="#3b4a5a"/>
+          <rect x="150" y="280" width="200" height="120" fill="#42566a"/>
+          <g fill="#31414f">
+            <circle cx="90" cy="316" r="14"/><rect x="76" y="332" width="28" height="52" rx="12"/>
+            <circle cx="150" cy="326" r="14"/><rect x="136" y="342" width="28" height="46" rx="12"/>
+            <circle cx="230" cy="320" r="14"/><rect x="216" y="336" width="28" height="50" rx="12"/>
+            <circle cx="320" cy="330" r="14"/><rect x="306" y="346" width="28" height="44" rx="12"/>
+            <circle cx="400" cy="322" r="14"/><rect x="386" y="338" width="28" height="48" rx="12"/>
+          </g>
+        </svg>
+        <span class="cj-wall-label">老城广场 · 整点钟声</span>
+      </div>
+      <div class="cj-wall-item cj-wall-b">
+        <svg viewBox="0 0 340 200" role="img" aria-label="布尔诺街角咖啡馆窗边座位的影像静帧">
+          <rect width="340" height="200" fill="#e7d9c3"/>
+          <rect x="30" y="30" width="120" height="120" rx="6" fill="#a8c0d4"/>
+          <rect x="86" y="30" width="8" height="120" fill="#7e95a8"/>
+          <rect x="30" y="86" width="120" height="8" fill="#7e95a8"/>
+          <rect x="180" y="110" width="130" height="12" rx="6" fill="#8c6b4a"/>
+          <rect x="196" y="122" width="10" height="50" fill="#8c6b4a"/>
+          <rect x="284" y="122" width="10" height="50" fill="#8c6b4a"/>
+          <circle cx="230" cy="98" r="12" fill="#c2583f"/>
+          <rect x="240" y="98" width="16" height="8" rx="4" fill="#c2583f"/>
+        </svg>
+        <span class="cj-wall-label">窗边 · 第三杯咖啡</span>
+      </div>
+      <div class="cj-wall-item cj-wall-c">
+        <svg viewBox="0 0 260 200" role="img" aria-label="克鲁姆洛夫伏尔塔瓦河弯道影像静帧">
+          <rect width="260" height="200" fill="#cfdde8"/>
+          <path d="M0 120 Q70 90 130 120 T260 112 L260 200 L0 200 Z" fill="#7d9fb5"/>
+          <path d="M0 148 Q70 126 130 148 T260 140 L260 200 L0 200 Z" fill="#54758c"/>
+          <circle cx="60" cy="60" r="22" fill="#f5e6c8" opacity="0.95"/>
+        </svg>
+        <span class="cj-wall-label">河湾 · 午后逆光</span>
+      </div>
+      <div class="cj-wall-item cj-wall-d">
+        <svg viewBox="0 0 260 200" role="img" aria-label="布拉格雨天电车轨道影像静帧">
+          <rect width="260" height="200" fill="#3c4d5f"/>
+          <rect x="0" y="130" width="260" height="70" fill="#2a3745"/>
+          <g stroke="#8fa6bd" stroke-width="2" opacity="0.6">
+            <line x1="30" y1="200" x2="70" y2="130"/><line x1="110" y1="200" x2="130" y2="130"/>
+            <line x1="190" y1="200" x2="180" y2="130"/>
+          </g>
+          <rect x="70" y="60" width="110" height="66" rx="8" fill="#5f7690"/>
+          <rect x="82" y="72" width="24" height="20" rx="3" fill="#f2d9a8"/>
+          <rect x="116" y="72" width="24" height="20" rx="3" fill="#f2d9a8"/>
+          <rect x="150" y="72" width="20" height="20" rx="3" fill="#f2d9a8"/>
+        </svg>
+        <span class="cj-wall-label">电车 · 雨夜线路</span>
+      </div>
+      <div class="cj-wall-item cj-wall-e">
+        <svg viewBox="0 0 340 200" role="img" aria-label="布拉格早市蔬果摊位影像静帧">
+          <rect width="340" height="200" fill="#f4ead8"/>
+          <rect x="0" y="120" width="340" height="80" fill="#d6c09c"/>
+          <g fill="#b5533c"><circle cx="60" cy="96" r="16"/><circle cx="94" cy="96" r="16"/><circle cx="128" cy="96" r="16"/></g>
+          <g fill="#8fa86a"><circle cx="200" cy="96" r="16"/><circle cx="234" cy="96" r="16"/><circle cx="268" cy="96" r="16"/></g>
+          <rect x="40" y="110" width="260" height="8" rx="4" fill="#a98a63"/>
+        </svg>
+        <span class="cj-wall-label">早市 · 八点开摊</span>
+      </div>
+      <div class="cj-wall-item cj-wall-f">
+        <svg viewBox="0 0 340 200" role="img" aria-label="布拉格公园长椅阅读者影像静帧">
+          <rect width="340" height="200" fill="#dfe9dc"/>
+          <rect x="0" y="150" width="340" height="50" fill="#a9bf9b"/>
+          <rect x="90" y="112" width="160" height="12" rx="6" fill="#8a6b4a"/>
+          <rect x="104" y="124" width="10" height="26" fill="#8a6b4a"/>
+          <rect x="226" y="124" width="10" height="26" fill="#8a6b4a"/>
+          <circle cx="170" cy="86" r="16" fill="#5c6f52"/>
+          <rect x="158" y="102" width="24" height="12" rx="6" fill="#5c6f52"/>
+          <rect x="186" y="94" width="24" height="16" rx="3" fill="#f7f3e8"/>
+          <circle cx="60" cy="52" r="26" fill="#c6d8bd"/>
+          <circle cx="290" cy="64" r="20" fill="#c6d8bd"/>
+        </svg>
+        <span class="cj-wall-label">公园 · 一页书</span>
+      </div>
+    </div>
+    <div class="cj-inspire">
+      <div class="cj-idea">
+        <h3>脚本灵感 · 三问结构</h3>
+        <p>适合第一次拍摄街头对话的创作者。</p>
+        <ol>
+          <li>第一问：关于此刻的感受</li>
+          <li>第二问：关于这座城市的一句话</li>
+          <li>第三问：关于最近想做的一件事</li>
+        </ol>
+      </div>
+      <div class="cj-idea">
+        <h3>剪辑思路 · 留白三秒</h3>
+        <p>回答结束后保留三秒空镜，让观众有时间消化情绪，而不是急着切走。</p>
+      </div>
+      <div class="cj-idea">
+        <h3>标题建议 · 具体优先</h3>
+        <p>用具体时间、地点或一句话作标题，例如「早上六点四十，桥上第一声问候」。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 用户评价 + 官方动态 -->
+<section class="cj-sec" id="cjNews" aria-labelledby="cjNewsTitle">
+  <div class="cj-wrap">
+    <div class="cj-sec-head">
+      <div class="cj-eyebrow">VOICES · 口碑与动态</div>
+      <h2 id="cjNewsTitle">社区怎么说，我们在做什么</h2>
+      <p>来自观众与创作者的真实反馈，以及「捷克街头搭讪」官方网站的最新更新日志。</p>
+    </div>
+    <div class="cj-quotes" style="margin-bottom:44px">
+      <div class="cj-quote">
+        <div class="cj-q-head"><span class="cj-avatar" style="background:#d97f21">木</span><b>木子 · 创作者</b></div>
+        <div class="cj-stars">★★★★★</div>
+        <p>投过三支片子，审核意见写得很细，连字幕时间码的小时差都标了出来。这种专业度在同类社区里不多见。</p>
+      </div>
+      <div class="cj-quote">
+        <div class="cj-q-head"><span class="cj-avatar" style="background:#3f5370">林</span><b>林向 · 观众</b></div>
+        <div class="cj-stars">★★★★★</div>
+        <p>不吵不闹，看完会想出门走走。最喜欢下雨那期，几乎没有台词，但情绪很完整。</p>
+      </div>
+      <div class="cj-quote">
+        <div class="cj-q-head"><span class="cj-avatar" style="background:#31465f">周</span><b>周晓 · 纪录片学生</b></div>
+        <div class="cj-stars">★★★★☆</div>
+        <p>收音教程对我帮助很大。唯一希望能多一些关于如何拒绝素材诱惑的讨论。</p>
+      </div>
+      <div class="cj-quote">
+        <div class="cj-q-head"><span class="cj-avatar" style="background:#c2583f">许</span><b>许一 · 观众</b></div>
+        <div class="cj-stars">★★★★★</div>
+        <p>在这里第一次看到「被拍摄者可以随时叫停」被写进流程，挺打动我的。</p>
+      </div>
+      <div class="cj-quote">
+        <div class="cj-q-head"><span class="cj-avatar" style="background:#6b7f4f">程</span><b>程野 · 独立创作者</b></div>
+        <div class="cj-stars">★★★★☆</div>
+        <p>专题企划的报名入口清楚，反馈也及时。如果能增加新人作品的固定曝光位就更好了。</p>
+      </div>
+      <div class="cj-quote">
+        <div class="cj-q-head"><span class="cj-avatar" style="background:#8ba3bd">沈</span><b>沈迟 · 长期订阅</b></div>
+        <div class="cj-stars">★★★★★</div>
+        <p>更新不快，但每次点开都有东西可看。这种节奏让人信任，也让人愿意等。</p>
+      </div>
+    </div>
+    <div class="cj-news">
+      <div class="cj-news-list">
+        <div class="cj-news-item">
+          <span class="cj-news-date">11/18<br>更新</span>
+          <div><b>「布拉格午后」第三季第 12 期发布</b><p>本期取景查理大桥与老城广场，新增中文字幕与完整环境声版本。</p></div>
+        </div>
+        <div class="cj-news-item">
+          <span class="cj-news-date">11/12<br>企划</span>
+          <div><b>「陌生人问卷计划」冬季档报名开启</b><p>面向社区创作者开放三十个名额，报名截止 12 月 5 日，需提交一支样片。</p></div>
+        </div>
+        <div class="cj-news-item">
+          <span class="cj-news-date">11/06<br>标准</span>
+          <div><b>发布《街头影像拍摄与授权规范》2.0</b><p>补充了非中文对话字幕要求与被拍摄者撤回素材的处理流程。</p></div>
+        </div>
+        <div class="cj-news-item">
+          <span class="cj-news-date">10/28<br>技术</span>
+          <div><b>官网播放器支持高清与竖屏双版本切换</b><p>同一作品可上传横屏与竖屏两个版本，观众可自行选择观看方式。</p></div>
+        </div>
+        <div class="cj-news-item">
+          <span class="cj-news-date">10/15<br>社区</span>
+          <div><b>九月口碑榜公布，六位新人作者入选</b><p>口碑榜综合完播率、收藏率与评论质量计算，完整名单可在官网社区页查看。</p></div>
+        </div>
+      </div>
+      <aside class="cj-rank">
+        <h3>本月热度榜 <span class="cj-chip">每小时更新</span></h3>
+        <div class="cj-rank-row"><span class="cj-rank-no cj-top">1</span><span>雨夜共伞：一个没有台词的七分钟</span><em>4.4万</em></div>
+        <div class="cj-rank-row"><span class="cj-rank-no cj-top">2</span><span>沿着伏尔塔瓦河走完一整个黄昏</span><em>3.6万</em></div>
+        <div class="cj-rank-row"><span class="cj-rank-no">3</span><span>手风琴艺人米洛斯：我在广场拉了十九年琴</span><em>2.9万</em></div>
+        <div class="cj-rank-row"><span class="cj-rank-no">4</span><span>查理大桥的第一声早上好</span><em>2.3万</em></div>
+        <div class="cj-rank-row"><span class="cj-rank-no">5</span><span>街头随机对话收音：一支指向麦的正确拿法</span><em>2.1万</em></div>
+        <div class="cj-rank-row"><span class="cj-rank-no">6</span><span>在布拉格早市假装迷路，遇见八种善意</span><em>1.9万</em></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="cj-sec cj-sec-alt" id="cjFaq" aria-labelledby="cjFaqTitle">
+  <div class="cj-wrap">
+    <div class="cj-sec-head">
+      <div class="cj-eyebrow">HELP · 帮助中心</div>
+      <h2 id="cjFaqTitle">常见问题</h2>
+      <p>关于投稿、授权、内容标准与社区规则的常见疑问，都在这里。</p>
+    </div>
+    <div class="cj-faq">
+      <details>
+        <summary>如何向「捷克街头搭讪」官网投稿自己的作品？</summary>
+        <p>在页面底部「联系与投稿」区域填写表单，附上作品链接或样片说明。编辑部会在五个工作日内回复，通过后签署授权文件即可安排发布。</p>
+      </details>
+      <details>
+        <summary>拍摄街头对话需要注意哪些授权问题？</summary>
+        <p>必须先说明来意与用途，取得口头或书面同意，并告知对方可以随时撤回。涉及未成年人时，需取得监护人同意。我们提供标准授权文本模板，可在投稿后向编辑部索取。</p>
+      </details>
+      <details>
+        <summary>作品的字幕和音频有什么标准？</summary>
+        <p>非中文对话需提供准确的中文字幕，字幕需标注说话人与时间码。音频建议使用指向性麦克风，保留环境声，避免过度降噪导致失真。</p>
+      </details>
+      <details>
+        <summary>专题企划如何报名参与？</summary>
+        <p>每个专题发布时会在官方动态中说明报名方式与截止时间。通常需要提交一支样片与简要构思，入选创作者会获得拍摄建议与发布支持。</p>
+      </details>
+      <details>
+        <summary>作品发布后可以修改或撤回吗？</summary>
+        <p>可以。被拍摄者在合理范围内可要求修改或撤回，创作者也可申请内容修订。涉及撤回的素材，我们会在三个工作日内下架并通知相关方。</p>
+      </details>
+      <details>
+        <summary>官网的内容可以转载或二次使用吗？</summary>
+        <p>所有内容均为原创并获得授权，转载需事先取得书面许可并注明来源。商业用途请通过联系入口与我们沟通具体授权方式。</p>
+      </details>
+      <details>
+        <summary>我没有专业设备，可以参与创作吗？</summary>
+        <p>可以。我们更看重对话的真诚与叙事的完整度，手机配合领夹麦也能完成不错的作品。社区设有新人帮助区，可以找到收音与剪辑的入门资料。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 联系与投稿 -->
+<section class="cj-sec" id="cjContact" aria-labelledby="cjContactTitle">
+  <div class="cj-wrap">
+    <div class="cj-contact">
+      <div>
+        <h2 id="cjContactTitle">联系与投稿</h2>
+        <p>无论你是想投稿一支街头短片，还是希望与我们合作企划，都欢迎通过以下方式联系「捷克街头搭讪」官方网站。</p>
+        <div class="cj-contact-list">
+          <div><span>投稿邮箱</span>submit@streettalk-praha.example</div>
+          <div><span>合作咨询</span>partner@streettalk-praha.example</div>
+          <div><span>办公地址</span>布拉格老城区 · 内容编辑部（预约到访）</div>
+          <div><span>响应时间</span>工作日 09:00—18:00（中欧时间）</div>
+        </div>
+      </div>
+      <form class="cj-contact-form" id="cjContactForm">
+        <input type="text" name="name" placeholder="你的称呼" aria-label="你的称呼" required>
+        <input type="email" name="email" placeholder="联系邮箱" aria-label="联系邮箱" required>
+        <textarea name="message" rows="4" placeholder="简单说说你的作品或合作想法" aria-label="留言内容" required></textarea>
+        <button class="cj-btn cj-btn-amber" type="submit">提交投稿意向</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="cj-footer">
+  <div class="cj-wrap">
+    <div class="cj-footer-grid">
+      <div>
+        <div class="cj-footer-brand">
+          <span class="cj-logo-mark" style="width:32px;height:32px;border-radius:9px">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#f2a24b"/></svg>
+          </span>
+          捷克街头搭讪
+        </div>
+        <p class="cj-footer-note">
+          「捷克街头搭讪」官方网站，专注真实街头对话影像的品牌视频社区。<br>
+          我们坚持原创、正版、高清的发布标准，持续运营七年，服务四十二座城市的创作者与观众。
+        </p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#cjFocus">焦点内容</a></li>
+          <li><a href="#cjVideos">热门影像</a></li>
+          <li><a href="#cjTopics">专题企划</a></li>
+          <li><a href="#cjWall">社区影像墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#cjStory">品牌故事</a></li>
+          <li><a href="#cjCreators">创作者</a></li>
+          <li><a href="#cjNews">官方动态</a></li>
+          <li><a href="#cjFaq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系</h4>
+        <ul>
+          <li><a href="#cjContact">投稿入口</a></li>
+          <li><a href="#cjContact">合作咨询</a></li>
+          <li><a href="#cjFaq">授权说明</a></li>
+          <li><a href="#cjNews">更新日志</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cj-footer-bottom">
+      <span>© 2019—2026 捷克街头搭讪 官方网站 · 版权所有 · 持续运营中</span>
+      <span>内容均为原创与授权发布 · 未经许可请勿转载</span>
+    </div>
+  </div>
+</footer>
+
+<button class="cj-top-btn" id="cjTopBtn" aria-label="回到顶部">↑</button>
+<div class="cj-toast" id="cjToast" role="status" aria-live="polite"></div>
+
+<div class="cj-modal" id="cjModal" role="dialog" aria-modal="true" aria-labelledby="cjModalTitle">
+  <div class="cj-modal-box">
+    <button class="cj-modal-close" id="cjModalClose" aria-label="关闭弹窗">×</button>
+    <h3 id="cjModalTitle">分享</h3>
+    <p id="cjModalDesc">把这条街头影像分享给朋友。</p>
+    <div class="cj-share-row">
+      <button type="button" data-share="微信">微信</button>
+      <button type="button" data-share="微博">微博</button>
+      <button type="button" data-share="QQ">QQ</button>
+      <button type="button" id="cjCopyLink">复制链接</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var toastEl = document.getElementById('cjToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('cj-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('cj-show'); }, 2200);
+  }
+
+  /* 移动端导航折叠 */
+  var burger = document.getElementById('cjBurger');
+  var nav = document.getElementById('cjNav');
+  if(burger && nav){
+    burger.addEventListener('click', function(){
+      var open = nav.classList.toggle('cj-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.textContent = open ? '×' : '☰';
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.innerWidth <= 720){
+        nav.classList.remove('cj-open');
+        burger.setAttribute('aria-expanded','false');
+        burger.textContent = '☰';
+      }
+    });
+  }
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById('cjSearchInput');
+  var searchBtn = document.getElementById('cjSearchBtn');
+  var searchTip = document.getElementById('cjSearchTip');
+  var searchData = ['布拉格午后','查理大桥','雨夜共伞','街头收音','布尔诺咖啡摊','小城慢谈','手风琴艺人','陌生人问卷'];
+  function doSearch(){
+    var q = (searchInput.value || '').trim();
+    if(!q){
+      searchTip.textContent = '试试输入城市、创作者或影像关键词。';
+      searchTip.classList.add('cj-show');
+      return;
+    }
+    var hit = searchData.filter(function(item){ return item.indexOf(q) !== -1 || q.indexOf(item) !== -1; });
+    if(hit.length){
+      searchTip.textContent = '找到 ' + hit.length + ' 条相关影像：' + hit.join('、');
+    }else{
+      searchTip.textContent = '暂未找到「' + q + '」的直接结果，可在投稿区留下你想看的方向。';
+    }
+    searchTip.classList.add('cj-show');
+  }
+  if(searchBtn && searchInput){
+    searchBtn.addEventListener('click', doSearch);
+    searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); doSearch(); } });
+    searchInput.addEventListener('input', function(){ if(!searchInput.value) searchTip.classList.remove('cj-show'); });
+    document.addEventListener('click', function(e){
+      if(!e.target.closest('.cj-search')) searchTip.classList.remove('cj-show');
+    });
+  }
+
+  /* 点赞 / 收藏 */
+  function bindLikeLike(btn){
+    btn.addEventListener('click', function(){
+      var b = btn.querySelector('b');
+      var base = parseInt(btn.getAttribute('data-count') || (b ? b.textContent : '0'), 10) || 0;
+      var on = btn.classList.toggle('cj-on');
+      var current = parseInt(b.textContent, 10) || base;
+      b.textContent = on ? current + 1 : Math.max(current - 1, 0);
+      showToast(on ? '已标记喜欢' : '已取消喜欢');
+    });
+  }
+  document.querySelectorAll('.cj-like').forEach(bindLikeLike);
+  document.querySelectorAll('.cj-fav').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('cj-on');
+      btn.innerHTML = on ? '<span>♥</span>已收藏' : '<span>☆</span>收藏';
+      showToast(on ? '已加入收藏' : '已取消收藏');
+    });
+  });
+
+  /* 分享弹窗 */
+  var modal = document.getElementById('cjModal');
+  var modalTitle = document.getElementById('cjModalTitle');
+  var modalDesc = document.getElementById('cjModalDesc');
+  var modalClose = document.getElementById('cjModalClose');
+  function openModal(title, desc){
+    if(!modal) return;
+    modalTitle.textContent = title;
+    modalDesc.textContent = desc;
+    modal.classList.add('cj-show');
+  }
+  function closeModal(){ if(modal) modal.classList.remove('cj-show'); }
+  if(modalClose) modalClose.addEventListener('click', closeModal);
+  if(modal) modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  document.querySelectorAll('.cj-share').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var title = btn.getAttribute('data-title') || '街头影像';
+      openModal('分享 · ' + title, '选择平台把这条街头影像分享给朋友，或复制页面链接。');
+    });
+  });
+  document.querySelectorAll('[data-share]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      closeModal();
+      showToast('已生成' + btn.getAttribute('data-share') + '分享提示');
+    });
+  });
+  var copyBtn = document.getElementById('cjCopyLink');
+  if(copyBtn){
+    copyBtn.addEventListener('click', function(){
+      var link = 'https://streettalk-praha.example/';
+      function fallback(){
+        try{
+          var ta = document.createElement('textarea');
+          ta.value = link; document.body.appendChild(ta); ta.select();
+          document.execCommand('copy'); document.body.removeChild(ta);
+          showToast('链接已复制');
+        }catch(err){ showToast('复制失败，请手动选择链接'); }
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(link).then(function(){ showToast('链接已复制'); }).catch(fallback);
+      }else{ fallback(); }
+      closeModal();
+    });
+  }
+
+  /* 创作者弹窗 */
+  document.querySelectorAll('.cj-creator').forEach(function(card){
+    card.addEventListener('click', function(){
+      var name = card.getAttribute('data-creator');
+      var desc = card.getAttribute('data-desc');
+      openModal(name + ' · 创作者档案', desc);
+    });
+  });
+
+  /* 标签筛选 */
+  var filters = document.querySelectorAll('#cjFilters .cj-filter');
+  var cards = document.querySelectorAll('#cjVideoGrid .cj-card');
+  filters.forEach(function(f){
+    f.addEventListener('click', function(){
+      filters.forEach(function(x){ x.classList.remove('cj-on'); });
+      f.classList.add('cj-on');
+      var key = f.getAttribute('data-filter');
+      cards.forEach(function(c){
+        var show = key === 'all' || c.getAttribute('data-cat') === key;
+        c.style.display = show ? '' : 'none';
+      });
+    });
+  });
+
+  /* 品牌解析展开 */
+  var storyToggle = document.getElementById('cjStoryToggle');
+  var moreStory = document.getElementById('cjMoreStory');
+  if(storyToggle && moreStory){
+    storyToggle.addEventListener('click', function(){
+      var open = moreStory.classList.toggle('cj-open');
+      storyToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      storyToggle.textContent = open ? '收起完整品牌解析' : '展开完整品牌解析';
+    });
+  }
+
+  /* 联系表单 */
+  var form = document.getElementById('cjContactForm');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      showToast('投稿意向已提交，编辑部将在五个工作日内回复');
+      form.reset();
+    });
+  }
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('cjTopBtn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 500) topBtn.classList.add('cj-show');
+    else topBtn.classList.remove('cj-show');
+  });
+  if(topBtn){
+    topBtn.addEventListener('click', function(){
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+})();
+</script>
+</body>
+                                                                 </html>
